@@ -1,0 +1,13 @@
+{
+  "name": "flor-da-estacao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de balcão de floricultura em HTML, CSS e JavaScript puro.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "dev": "node scripts/serve.js",
+    "sync": "node scripts/sync-data.js",
+    "test": "node --test",
+    "check": "node --check js/core.js && node --check js/app.js && node --check scripts/serve.js"
+  }
+}
